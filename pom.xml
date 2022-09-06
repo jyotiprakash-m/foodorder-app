@@ -17,5 +17,8 @@
 	<modules>
 		<module>coupon-service</module>
 		<module>subscription-service</module>
+		<module>hotel-service</module>
+		<module>user-service</module>
+		<module>order-service</module>
 	</modules>
 </project>

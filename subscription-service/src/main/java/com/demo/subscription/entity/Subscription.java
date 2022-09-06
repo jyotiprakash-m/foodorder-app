@@ -73,6 +73,11 @@ public class Subscription {
 
 	public Subscription() {
 	}
+	public Subscription(String subscriptionName, int discount, double price) {
+		this.subscriptionName = subscriptionName;
+		this.discount = discount;
+		this.price = price;
+	}
 
 	public Subscription(String subscriptionName, int discount, double price, List<Feature> features) {
 		this.subscriptionName = subscriptionName;

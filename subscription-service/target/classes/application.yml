@@ -10,7 +10,7 @@ spring:
     username: ${DB_USER:root}
   jpa:
     hibernate:
-      ddl-auto: create
+      ddl-auto: update
     show-sql: true
 # Log Configuration
 logging:

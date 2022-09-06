@@ -29,11 +29,11 @@ public interface SubscriptionService {
 //	Get by discount as well as price range
 	
 //	Add feature
-	Message addFeatureToSubs(Feature feature);
+	Message addFeatureToSubs(int subsId,Feature feature);
 //	Update feature
-	Message updateFeatureOfSubs(int id,Feature feature);
+	Message updateFeatureOfSubs(int subsId,int featureId,Feature feature);
 //	Delete feature
-	Message deleteFeatureFromSubs(int id,Feature feature);
+	Message deleteFeatureFromSubs(int featureId);
 //	Get all features of one Subscription
 	List<Feature> findAllFeature();
 //	Get all the feature
